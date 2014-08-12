@@ -15,7 +15,7 @@ Mandatory setup
 ---------------
 
 Add below permissions in main application’s “AndroidManifest.xml” file
-	<uses­permission android:name="android.permission.INTERNET" />
+<uses­permission android:name="android.permission.INTERNET" />
 	<uses­permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses­permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
 	<uses­permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
