@@ -2,8 +2,8 @@ Demo
 ====
 import following classes
 ------------------------
--com.surveyanalytics.androidsdk.Utilities.Constants
--com.surveyanalytics.androidsdk.SurveysListActivity
+- com.surveyanalytics.androidsdk.Utilities.Constants
+- com.surveyanalytics.androidsdk.SurveysListActivity
 
 You can start the Survey by calling intent for SurveyListActivity like this:
 -----------------------------------------------------------------
@@ -15,7 +15,7 @@ Mandatory setup
 ---------------
 
 Add below permissions in main application’s “AndroidManifest.xml” file
-<uses­permission android:name="android.permission.INTERNET" />
+	<uses­permission android:name="android.permission.INTERNET" />
 	<uses­permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses­permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
 	<uses­permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -25,26 +25,21 @@ Add below permissions in main application’s “AndroidManifest.xml” file
 	<uses­permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses­permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses­permission android:name="android.permission.RECORD_AUDIO" />
-	<uses­permission android:name="android.permission.CAMERA" />
-	<uses­permission android:name="android.permission.GET_TASKS" />
-	<uses­feature android:name="android.hardware.camera" android:required="false" />
+	<uses­permission android:name="android.permission.CAMERA"/>
+	<uses­permission android:name="android.permission.GET_TASKS"/>
+	<uses­feature android:name="android.hardware.camera" android:required="false"/>
 
 Also define the following activities
-	<activity
-	android:name="com.surveyanalytics.androidsdk.SurveysListActivity"
+	<activity android:name="com.surveyanalytics.androidsdk.SurveysListActivity"
 	android:exported="true"
 	android:screenOrientation="portrait"></activity>
-	<activity
-	android:name="com.surveyanalytics.androidsdk.TakeSurvey"
+	<activity android:name="com.surveyanalytics.androidsdk.TakeSurvey"
 	android:exported="true"
 	android:windowSoftInputMode="adjustPan"
 	android:screenOrientation="portrait"></activity>
-	<activity
-	android:name="com.surveyanalytics.androidsdk..ImagePreview"
+	<activity android:name="com.surveyanalytics.androidsdk..ImagePreview"
 	android:screenOrientation="portrait"></activity>
-	<activity
-	android:configChanges="keyboardHidden|orientation|keyboard"
-	android:name="com.surveyanalytics.androidsdk.AudioVideoPlayer"
+	<activity android:configChanges="keyboardHidden|orientation|keyboard" android:name="com.surveyanalytics.androidsdk.AudioVideoPlayer"
 	android:screenOrientation="landscape"></activity>
 	<activity
 	android:configChanges="keyboardHidden|orientation|keyboard"
