@@ -2,7 +2,7 @@ Demo
 ====
 import following classes
 ------------------------
-- com.surveyanalytics.androidsdk.Utilities.Constants; 		- com.surveyanalytics.androidsdk.SurveysListActivity;
+- com.surveyanalytics.androidsdk.Utilities.Constants- com.surveyanalytics.androidsdk.SurveysListActivity
 
 You can start the Survey by calling intent for SurveyListActivity like this:
 -----------------------------------------------------------------
